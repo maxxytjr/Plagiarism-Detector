@@ -35,3 +35,6 @@ Then determine the normalized LCS from dividing the LCS value by the length of t
 You may find the dataset used for model training and evaluation [here](https://ir.shef.ac.uk/cloughie/resources/plagiarism_corpus.html).
 
 **Citation for data**: Clough, P. and Stevenson, M. Developing A Corpus of Plagiarised Short Answers, Language Resources and Evaluation: Special Issue on Plagiarism and Authorship Analysis, In Press.
+
+## Notes
+In the feature engineering notebook, a 10-fold cross-validation step was implemented on three machine learning model pipelines in order to determine the best performing model (based on CV score, auroc) and its accompanying optimal hyperparameter values. 
