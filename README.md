@@ -8,6 +8,11 @@ This is part of the Udacity Machine Learning Engineer Nanodegree program.
 ## Description
 Detecting plagiarism is an active area of research, and the differences between paraphrased answers and original work are not so obvious.
 
+Steps include:
+1. Data Exploration
+2. Feature Engineering, including text pre-processing and train/test split
+3. Train and Deployment of Model in Amazon SageMaer
+
 ## Feature Engineering
 One of the ways to detect plagiarism is by computing **similarity features** that measure how similar a text is compared to the source text. 
 
@@ -25,3 +30,8 @@ Finding the longest common subsequence of words that appear left to right in bot
 The words do not have to be exactly continuous, just in left to right order. 
 
 Then determine the normalized LCS from dividing the LCS value by the length of the input text. 
+
+## Dataset
+You may find the dataset used for model training and evaluation [here](https://ir.shef.ac.uk/cloughie/resources/plagiarism_corpus.html).
+
+**Citation for data**: Clough, P. and Stevenson, M. Developing A Corpus of Plagiarised Short Answers, Language Resources and Evaluation: Special Issue on Plagiarism and Authorship Analysis, In Press.
